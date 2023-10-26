@@ -1,4 +1,7 @@
 <!--head-->
+<?php 
+//include_once("./includes/table.inc.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +38,8 @@
                     <?php    
                     
                     include_once("./includes/table.inc.php");
+
+                    print Table::affichertable();
                     ?>                                
                 </tbody>
                 <!--partie footer-->
